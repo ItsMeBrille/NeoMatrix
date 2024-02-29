@@ -1,18 +1,34 @@
-# 8x8 LED Matrix with Acrylic Stems
+# NeoMatrix Wooden Base LED Illuminator
 
-This repository contains the necessary files to laser cut an 8x8 LED matrix with acrylic stems, as well as code for a rainbow example. Inspires bu a picture I saw once and adjusted to my own dimentions.
+## Overview
+This Arduino project utilizes a Neomatrix and a laser cutter to create a wooden base with 64 holes where acrylic stems are inserted. The Neomatrix is used to illuminate the stems from below, creating an aesthetically pleasing effect.
 
 ## Files
+- `model/base.dxf`: DXF file containing the design for the wooden base.
+- `model/stems.dxf`: DXF file containing the design for the acrylic stems.
 
-- `cutting`: This folder contains the DXF files needed for laser cutting the matrix with acrylic stems.
+![Screenshot](screenshot.png)
 
-- `code`: This folder contains the `rainbow.ino` code for the example.
+## Components
+- Arduino Nano
+- Neomatrix
+- 3 jumper wires
+- 3-4mm plywood
+- 3mm acrylic plate
 
-## Requirements
+## Instructions
+1. **Laser Cutting**: Use the provided DXF files to laser cut the wooden base (`base.dxf`) and the acrylic stems (`stems.dxf`). Note that you may need to test multiple times with the laser cutter to ensure the stems fit properly. The provided dxf file only contains 16 stems to minimize material waste during testing.
+   
+2. **Assembly**: Once the base and stems are cut, insert the acrylic stems into the corresponding holes in the wooden base.
 
-- Arduino Nano (or any Arduino board)
-- Adafruit NeoMatrix
+3. **Wiring**: Connect the Neomatrix to the Arduino Nano using 3 jumper wires according to the pinout specifications.
 
-## License
+4. **Code**: Upload the Arduino code to the Arduino Nano. This code controls the Neomatrix to illuminate the acrylic stems from below.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+5. **Power**: Power up the Arduino Nano and Neomatrix to see the illuminated effect on the acrylic stems.
+
+## Note
+- Testing with the laser cutter may be required to ensure proper fitting of the acrylic stems. Adjustments may be needed in the design or cutting settings accordingly.
+- Ensure all connections are secure and correct before powering up the system to avoid damage to the components.
+
+Enjoy your NeoMatrix Wooden Base LED Illuminator project!
