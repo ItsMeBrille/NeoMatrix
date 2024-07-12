@@ -21,11 +21,9 @@ This Arduino project utilizes a Neomatrix and a laser cutter to create a wooden 
    
 1. **Cut and glue**: Once the base is cut, glue the pieces together. Use the second outside layer as guide when gluing the second inner piece to the bottom.
 
-1. **Wiring**: Connect the Neomatrix to the Arduino Nano using 3 jumper wires connecting them to 5V, GND and a PWM pin. Test before assembling in the box.
+1. **Wiring**: Connect the Neomatrix to the Arduino Nano using 3 jumper wires connecting them to 5V, GND and a PWM pin. Test the circuit with code before assembling it in the box.
 
 1. **Assembly**: Assemble the electronics and glue them to the case. Also cut stems and push them into the grid. If the fit is too tight or too loose, adjust the intensity or speed of the laser.
-
-1. **Code**: Upload Arduino code to the Arduino Nano. Make sure the 
 
 ## Note
 - Testing with the laser cutter may be required to ensure proper fitting of the acrylic stems. Adjustments may be needed in the design or cutting settings accordingly.
